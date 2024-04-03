@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Concert+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*NAV*/
+.navegador-img {
+    text-align: left;
+    width: 100px;
+    height: 100px; 
+    background-color: white;
+}
+.div-otherPages {
+    background-color: #bd0606;
+    justify-content: end;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    z-index: 2;
+}
+.other-pages {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.other-pagesPage a{
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-family: Changa;
+}
+/*INICIO*/
+.titulo-inicio{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+.div-inicio{
+    display: flex;
+    justify-content: space-between;
+}
+.div-videoInfo{
+    margin: 20px;
+}
+.div-descVideo{
+    display: block;
+}
+.title-videoInform{
+    font-family: Changa;
+}
+.description-videoInform{
+    font-family: Changa;
+}
+.div-myInfo{
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.title-myInfo{
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+}
+.my-info{
+    font-size: 13.5px;
+    font-family: Changa;
+    text-align: center;
+}
+.div-grafInicio{
+    display: flex;
+}
+.div-grafConst{
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.graf-const{
+    font-size: 14px;
+    text-align: center;
+    font-family: Changa;
+}
+.div-grafAbst{
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.graf-abst{
+    font-size: 14px;
+    text-align: center;
+    font-family: Changa;
+}
+.div-grafIrreg{
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.graf-irreg{
+    font-size: 14px;
+    text-align: center;
+    font-family: Changa;
+}
+.div-grafXqsi{
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.graf-xqsi{
+    font-size: 14px;
+    text-align: center;
+    font-family: Changa;
+}
+/*NAV-CONTACTOS*/
+.contactos-redes{
+    font-size: 12px;
+    list-style: none;
+    text-align: left;
+    background-color: #bd0606;
+}
+.red-ig a{
+    font-family: Changa;
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+.red-face a{
+    font-family: Changa;
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.red-num {
+    font-family: Changa;
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-family: Changa;
+}
+/*FOOTER*/
+.div-footer{
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.logo-under {
+    display: flex;
+    width: 100px;
+    height: 100px; 
+}
+/*RUTINAS*/
+.titulo-rutinas{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-rutinas{
+    background-color: rgb(117, 116, 115);
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+.div-rutina1{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia1{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia1{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia1{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 20px;
+    right: 240px;
+}
+.div-rutina2{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia2{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia2{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut2{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia2{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 10px;
+    right: 240px;
+}
+.div-rutina3{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia3{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia3{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut3{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia3{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 10px;
+    right: 240px;
+}
+.div-rutina4{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia4{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia4{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut4{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia4{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 20px;
+    right: 240px;
+}
+.div-rutina5{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia5{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia5{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut5{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia5{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 10px;
+    right: 240px;
+}
+.div-rutina6{
+    width: 600px;
+    height: 520px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(180, 0, 0);
+    position: relative;
+}
+.dia6{
+    font-family: Changa;
+    text-align: center;
+}
+.desc-dia6{
+    font-family: Changa;
+    text-align: center;
+}
+.img-rut6{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.imput-dia6{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Changa;
+    position: absolute;
+    bottom: 20px;
+    right: 240px;
+}
+/*MAS INFORMACION*/
+.titulo-info{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*COMIDAS*/
+.titulo-alimentos{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagen-circuloComidas{
+    width: 500px;
+    height: 500px;
+}
+.div-grafiCom{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+}
+.div-grafiFru{
+    background-color: rgb(121, 0, 0);
+    width: 1200px;
+    height: 680px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-fru{
+    font-family: Changa;
+}
+.desc-fru{
+    font-family: Changa;
+}
+.div-grafiGran{
+    background-color: rgb(121, 0, 0);
+    width: 1200px;
+    height: 690px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-gran{
+    font-family: Changa;
+}
+.desc-gran{
+    font-family: Changa;
+}
+.div-grafiLact{
+    background-color: rgb(121, 0, 0);
+    width: 1200px;
+    height: 620px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-lact{
+    font-family: Changa;
+}
+.desc-lact{
+    font-family: Changa;
+}
+.div-grafiVerd{
+    background-color: rgb(121, 0, 0);
+    width: 1200px;
+    height: 690px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-verd{
+    font-family: Changa;
+}
+.desc-verd{
+    font-family: Changa;
+}
+.div-grafiPro{
+    background-color: rgb(121, 0, 0);
+    width: 1200px;
+    height: 760px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-prote{
+    font-family: Changa;
+}
+.desc-prote{
+    font-family: Changa;
+}
+.div-grafiAcei{
+    background-color: rgb(121, 0, 0);
+    height: 280px;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.tit-acei{
+    font-family: Changa;
+}
+.desc-acei{
+    font-family: Changa;
+}
+@media(max-width: 1200px) {
+    
+}

@@ -44,10 +44,15 @@
 }
 .div-inicio{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .div-videoInfo{
     margin: 20px;
+    display: flex;
+}
+.video-inform{
+    width: 500px;
+    height: 310px;
 }
 .div-descVideo{
     display: block;
@@ -533,5 +538,57 @@
     font-family: Changa;
 }
 @media(max-width: 1200px) {
-    
+    .div-myInfo{
+        height: 400px;
+    }
+    .title-myInfo{
+        font-size: 22px;
+    }
+    .my-info{
+        font-size: 10px;
+    }
+    .video-inform{
+        width: 400px;
+        height: 270px;
+    }
+    .title-videoInform{
+        font-size: 16px
+    }
+    .description-videoInform{
+        font-size: 12px;
+    }
+}
+@media(max-width: 1024px) {
+    .div-myInfo{
+        height: 350px;
+    }
+    .title-myInfo{
+        font-size: 22px;
+    }
+    .my-info{
+        font-size: 9px;
+    }
+    .title-videoInform{
+        font-size: 15px
+    }
+    .description-videoInform{
+        font-size: 11px;
+    }
+}
+@media(max-width: 992px) {
+    .div-myInfo{
+        height: 340px;
+    }
+    .title-myInfo{
+        font-size: 20px;
+    }
+    .my-info{
+        font-size: 8px;
+    }
+    .title-videoInform{
+        font-size: 14px
+    }
+    .description-videoInform{
+        font-size: 10px;
+    }
 }

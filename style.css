@@ -643,6 +643,12 @@
     font-family: Changa;
 }
 @media(max-width: 1200px) {
+    .div-otherPages a{
+        font-size: 14px;
+    }
+    .titulo-inicio{
+        font-size: 58px;
+    }
     .div-myInfo{
         height: 400px;
     }
@@ -677,8 +683,17 @@
     .graf-xqsi{
         font-size: 12px;
     }
+    .logo-under{
+        left: 1030px;
+    }
 }
 @media(max-width: 1024px) {
+    .div-otherPages a{
+        font-size: 12px;
+    }
+    .titulo-inicio{
+        font-size: 56px;
+    }
     .div-myInfo{
         height: 350px;
     }
@@ -709,8 +724,17 @@
     .graf-xqsi{
         font-size: 11px;
     }
+    .logo-under{
+        left: 855px;
+    }
 }
 @media(max-width: 992px) {
+    .div-otherPages a{
+        font-size: 10px;
+    }
+    .titulo-inicio{
+        font-size: 54px;
+    }
     .div-myInfo{
         height: 340px;
     }
@@ -741,5 +765,23 @@
     }
     .graf-xqsi{
         font-size: 10px;
+    }
+    .logo-under{
+        left: 825px;
+    }
+}
+@media(max-width: 768px) {
+    .div-otherPages a{
+        font-size: 9px;
+    }
+    .titulo-inicio{
+        font-size: 52px;
+    }
+    .graf-inicio{
+        left: 210px;
+        width: 340px;
+    }
+    .logo-under{
+        left: 600px;
     }
 }

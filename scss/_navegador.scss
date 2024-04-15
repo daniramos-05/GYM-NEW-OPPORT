@@ -1,0 +1,30 @@
+/*NAVEGADOR*/
+.navegador{
+    background-color: #bd0606;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    z-index: 2;
+}
+.navegador-img {
+    text-align: left;
+    width: 100px;
+    background-color: #bd0606;
+    height: 100px; 
+}
+.other-pages {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.other-pagesPage a{
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-family: Changa;
+}

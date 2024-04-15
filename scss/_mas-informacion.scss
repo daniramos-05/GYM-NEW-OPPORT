@@ -1,0 +1,79 @@
+/*MAS INFORMACION*/
+.titulo-mas-informacion{
+    color: black;
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.masInformacion{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+.img-mas-informacion{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.informacion-fit{
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Changa;
+}
+.metodos-cambio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.videoCambio{
+    object-fit: cover;
+}
+.video-cambio{
+    width: 750px;
+    height: 430px;
+}
+.img-flecha{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.metodos{
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.titulo-metodos{
+    font-size: 18px;
+    font-family: Changa;
+}
+.descripcion-metodos{
+    font-size: 12px;
+    font-family: Changa;
+}
+.tipos-metodos{ 
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around
+}
+.metodos-entrenamiento{
+    background-color: rgb(180, 22, 22);     
+    width: 400px;        
+    margin: 20px;     
+    padding: 10px;
+}
+.titulo-entrenamientos{
+    font-family: Changa;
+    color: white;
+}
+.descripcion-entrenamientos{
+    font-family: Changa;
+    color: white;
+}

@@ -1,0 +1,83 @@
+/*INICIO*/
+.titulo-inicio{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+.inicio{
+    display: flex;
+    justify-content: space-around;
+}
+.videoInformativo{
+    margin: 20px;
+    display: flex;
+}
+.video-videoInformativo{
+    width: 500px;
+    height: 310px;
+}
+.videoDescription{
+    display: block;
+}
+.titulo-videoInformativo{
+    font-family: Changa;
+    padding: 10px;
+    margin: 5px;
+}
+.description-videoInformatico{
+    font-family: Changa;
+    padding: 10px;
+    margin: 5px;
+}
+.miInformacion{
+    width: 240%;
+    margin: 20px;
+    border: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.titulo-miInformacion{
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+}
+.mi-Informacion{
+    font-size: 13.5px;
+    font-family: Changa;
+    text-align: center;
+}
+.grafico-inicio-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grafico-inicio{
+    width: 50%;
+}
+.graficoInicio{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.recurrencia-ejercicio{
+    width: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.descripcion-graficos{
+    font-size: 14px;
+    text-align: center;
+    font-family: Changa;
+}

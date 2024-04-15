@@ -1,961 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Concert+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Concert+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/*NAVEGADOR*/
+.navegador {
+  background-color: #bd0606;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  padding: 10px;
+  position: sticky;
+  z-index: 2;
 }
-/*NAV*/
+
 .navegador-img {
-    text-align: left;
-    width: 100px;
-    height: 100px; 
-    background-color: white;
+  text-align: left;
+  width: 100px;
+  background-color: #bd0606;
+  height: 100px;
 }
-.div-otherPages {
-    background-color: #bd0606;
-    justify-content: end;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    padding: 10px;
-    position: sticky;
-    z-index: 2;
-}
+
 .other-pages {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-.other-pagesPage a{
-    display: block;
-    color: white;
-    padding: 20px 5px;
-    text-decoration: none;
-    font-family: Changa;
+
+.other-pagesPage a {
+  display: block;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-family: Changa;
 }
+
 /*INICIO*/
-.titulo-inicio{
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px;
+.titulo-inicio {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
 }
-.div-inicio{
-    display: flex;
-    justify-content: space-around;
+
+.inicio {
+  display: flex;
+  justify-content: space-around;
 }
-.div-videoInfo{
-    margin: 20px;
-    display: flex;
+
+.videoInformativo {
+  margin: 20px;
+  display: flex;
 }
-.video-inform{
-    width: 500px;
-    height: 310px;
+
+.video-videoInformativo {
+  width: 500px;
+  height: 310px;
 }
-.div-descVideo{
-    display: block;
+
+.videoDescription {
+  display: block;
 }
-.title-videoInform{
-    font-family: Changa;
+
+.titulo-videoInformativo {
+  font-family: Changa;
+  padding: 10px;
+  margin: 5px;
 }
-.description-videoInform{
-    font-family: Changa;
+
+.description-videoInformatico {
+  font-family: Changa;
+  padding: 10px;
+  margin: 5px;
 }
-.div-myInfo{
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+
+.miInformacion {
+  width: 240%;
+  margin: 20px;
+  border: 1px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
 }
-.title-myInfo{
-    font-family: Changa;
-    text-align: center;
-    font-size: 24px;
+
+.titulo-miInformacion {
+  font-family: Changa;
+  text-align: center;
+  font-size: 24px;
 }
-.my-info{
-    font-size: 13.5px;
-    font-family: Changa;
-    text-align: center;
+
+.mi-Informacion {
+  font-size: 13.5px;
+  font-family: Changa;
+  text-align: center;
 }
-.graf-inicio{
-    width: 500px;
-    display: flex;
-    position: relative;
-    left: 430px;
+
+.grafico-inicio-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.div-grafInicio{
-    display: flex;
-    justify-content: space-around;
+
+.grafico-inicio {
+  width: 50%;
 }
-.div-grafConst{
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+
+.graficoInicio {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
 }
-.graf-const{
-    font-size: 14px;
-    text-align: center;
-    font-family: Changa;
+
+.recurrencia-ejercicio {
+  width: 400px;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.div-grafAbst{
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+
+.descripcion-graficos {
+  font-size: 14px;
+  text-align: center;
+  font-family: Changa;
 }
-.graf-abst{
-    font-size: 14px;
-    text-align: center;
-    font-family: Changa;
+
+/*NAVEGADOR-CONTACTOS*/
+.contactos-redes {
+  font-size: 12px;
+  list-style: none;
+  text-align: left;
+  background-color: #bd0606;
 }
-.div-grafIrreg{
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+
+.red-ig a {
+  font-family: Changa;
+  display: block;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
 }
-.graf-irreg{
-    font-size: 14px;
-    text-align: center;
-    font-family: Changa;
+
+.red-face a {
+  font-family: Changa;
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
 }
-.div-grafXqsi{
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-}
-.graf-xqsi{
-    font-size: 14px;
-    text-align: center;
-    font-family: Changa;
-}
-/*NAV-CONTACTOS*/
-.contactos-redes{
-    font-size: 12px;
-    list-style: none;
-    text-align: left;
-    background-color: #bd0606;
-}
-.red-ig a{
-    font-family: Changa;
-    display: block;
-    color: white;
-    padding: 20px 5px;
-    text-decoration: none;
-}
-.red-face a{
-    font-family: Changa;
-    display: block;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-}
+
 .red-num {
-    font-family: Changa;
-    display: block;
-    color: white;
-    padding: 20px 5px;
-    text-decoration: none;
-    font-family: Changa;
+  font-family: Changa;
+  display: block;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-family: Changa;
 }
+
 /*FOOTER*/
-.div-footer{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.footer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  background-color: #bd0606;
 }
-.copyright{
-    text-align: center;
-    font-size: 12px;
-    color: black;
+
+.copyright {
+  font-size: 12px;
+  color: black;
 }
-.logo-under {
-    display: flex;
-    position: absolute;
-    left: 1200px;
-    width: 150px;
-    height: 150px; 
+
+.logo-de-abajo {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 150px;
 }
+
 /*RUTINAS*/
-.titulo-rutinas{
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.titulo-rutinas {
+  color: black;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.div-rutinas{
-    background-color: rgb(117, 116, 115);
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin-top: 100px;
-    margin-bottom: 100px; 
+
+.tipos-rutinas {
+  background-color: rgb(117, 116, 115);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.div-rutina1{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
+
+.rutinas {
+  width: 600px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(180, 0, 0);
+  position: relative;
 }
-.dia1{
-    font-family: Changa;
-    text-align: center;
+
+.dias {
+  font-family: Changa;
+  text-align: center;
+  font-size: 30px;
 }
-.desc-dia1{
-    font-family: Changa;
-    text-align: center;
+
+.img-rutinas {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.img-rut1{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+
+.descripcion-rutinas {
+  font-family: Changa;
+  text-align: center;
 }
-.imput-dia1{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 20px;
-    right: 240px;
+
+.boton-rutinas {
+  width: 130px;
+  height: 45px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Changa;
+  position: absolute;
+  bottom: -30px;
+  transition: 1s;
 }
-.div-rutina2{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
+.boton-rutinas:hover {
+  background-color: rgba(0, 0, 0, 0.836);
+  width: 140px;
+  transition: 1s;
 }
-.dia2{
-    font-family: Changa;
-    text-align: center;
-}
-.desc-dia2{
-    font-family: Changa;
-    text-align: center;
-}
-.img-rut2{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.imput-dia2{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 10px;
-    right: 240px;
-}
-.div-rutina3{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
-}
-.dia3{
-    font-family: Changa;
-    text-align: center;
-}
-.desc-dia3{
-    font-family: Changa;
-    text-align: center;
-}
-.img-rut3{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.imput-dia3{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 10px;
-    right: 240px;
-}
-.div-rutina4{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
-}
-.dia4{
-    font-family: Changa;
-    text-align: center;
-}
-.desc-dia4{
-    font-family: Changa;
-    text-align: center;
-}
-.img-rut4{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.imput-dia4{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 20px;
-    right: 240px;
-}
-.div-rutina5{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
-}
-.dia5{
-    font-family: Changa;
-    text-align: center;
-}
-.desc-dia5{
-    font-family: Changa;
-    text-align: center;
-}
-.img-rut5{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.imput-dia5{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 10px;
-    right: 240px;
-}
-.div-rutina6{
-    width: 600px;
-    height: 520px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(180, 0, 0);
-    position: relative;
-}
-.dia6{
-    font-family: Changa;
-    text-align: center;
-}
-.desc-dia6{
-    font-family: Changa;
-    text-align: center;
-}
-.img-rut6{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.imput-dia6{
-    color: black;
-    background-color: white;
-    border: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Changa;
-    position: absolute;
-    bottom: 20px;
-    right: 240px;
-}
+
 /*MAS INFORMACION*/
-.titulo-info{
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.titulo-mas-informacion {
+  color: black;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.div-masInfo{
-    display: flex;
-    margin: 10px;
-    gap: 20px;
+
+.masInformacion {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
 }
-.img-masInfo{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
+
+.img-mas-informacion {
+  width: 600px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.info-fit{
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
+
+.informacion-fit {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Changa;
+}
+
+.metodos-cambio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.videoCambio {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video-cambio {
+  width: 750px;
+  height: 430px;
+}
+
+.img-flecha {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.metodos {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.titulo-metodos {
+  font-size: 18px;
+  font-family: Changa;
+}
+
+.descripcion-metodos {
+  font-size: 12px;
+  font-family: Changa;
+}
+
+.tipos-metodos {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.metodos-entrenamiento {
+  background-color: rgb(180, 22, 22);
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.titulo-entrenamientos {
+  font-family: Changa;
+  color: white;
+}
+
+.descripcion-entrenamientos {
+  font-family: Changa;
+  color: white;
+}
+
+/*TIPOS DE ALIMENTACION*/
+.titulo-tipos-alimentos {
+  color: black;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.circuloComidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-circuloComidas {
+  width: 70%;
+}
+
+.contenedor-informacion-comidas {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.contenedor-info {
+  background-color: rgb(121, 0, 0);
+  width: 600px;
+  margin: 20px;
+  border: solid black 1px;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo-alimentos {
+  font-family: Changa;
+  color: white;
+}
+
+.descripcion-alimentos {
+  font-family: Changa;
+}
+
+.lista-alimentos {
+  font-family: Changa;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .other-pagesPage a {
     font-size: 14px;
-    font-family: Changa;
-}
-.metodos-cambio{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-}
-.metodos{
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-}
-.titulo-metodos{
-    font-size: 18px;
-    font-family: Changa;
-}
-.desc-metodos{
+  }
+  .titulo-inicio {
+    font-size: 56px;
+  }
+  .navegador-img {
+    width: 80px;
+    height: 80px;
+  }
+  .video-videInformativo {
+    width: 440px;
+    height: 270px;
+  }
+  .titulo-videoInformativo {
+    font-size: 17px;
+  }
+  .description-videoInformatico {
+    font-size: 15px;
+  }
+  .titulo-miInformacion {
+    font-size: 22px;
+  }
+  .mi-Informacion {
     font-size: 12px;
-    font-family: Changa;
-}
-.img-flecha{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-.div-video-cambio{
-    object-fit: cover;
-}
-.video-cambio{
-    width: 560px;
-    height: 320px;
-}
-.tipos-metodos{ 
-    display: flex;
-    justify-content: space-around;
-}
-.arnold-split{
-    background-color: rgb(180, 22, 22);     
-    width: 400px;     
-    height: 400px;     
-    margin: 20px;     
-    padding: 10px;
-}
-.titulo-arnold{
-    font-family: Changa;
-    color: white;
-}
-.desc-arnold{
-    font-family: Changa;
-    color: white;
-}
-.heavy-duty{
-    background-color: rgb(180, 22, 22);     
-    width: 400px;     
-    height: 400px;     
-    margin: 20px;     
-    padding: 10px;
-}
-.titulo-heavyDuty{
-    font-family: Changa;
-    color: white;
-}
-.desc-heavyDuty{
-    font-family: Changa;
-    color: white;
-}
-.full-body{
-    background-color: rgb(180, 22, 22);     
-    width: 400px;     
-    height: 400px;     
-    margin: 20px;     
-    padding: 10px;
-}
-.titulo-full{
-    font-family: Changa;
-    color: white;
-}
-.desc-full{
-    font-family: Changa;
-    color: white;
-}
-/*COMIDAS*/
-.titulo-alimentos{
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.imagen-circuloComidas{
+  }
+  /*MAS INFORMACION*/
+  .titulo-mas-informacion {
+    font-size: 56px;
+  }
+  .img-mas-informacion {
     width: 500px;
-    height: 500px;
-}
-.div-grafiCom{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 20px;
-}
-.div-grafiFru{
-    background-color: rgb(121, 0, 0);
-    width: 1200px;
-    height: 680px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
-}
-.tit-fru{
-    font-family: Changa;
-}
-.desc-fru{
-    font-family: Changa;
-}
-.div-grafiGran{
-    background-color: rgb(121, 0, 0);
-    width: 1200px;
-    height: 690px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
-}
-.tit-gran{
-    font-family: Changa;
-}
-.desc-gran{
-    font-family: Changa;
-}
-.div-grafiLact{
-    background-color: rgb(121, 0, 0);
-    width: 1200px;
-    height: 620px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
-}
-.tit-lact{
-    font-family: Changa;
-}
-.desc-lact{
-    font-family: Changa;
-}
-.div-grafiVerd{
-    background-color: rgb(121, 0, 0);
-    width: 1200px;
-    height: 690px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
-}
-.tit-verd{
-    font-family: Changa;
-}
-.desc-verd{
-    font-family: Changa;
-}
-.div-grafiPro{
-    background-color: rgb(121, 0, 0);
-    width: 1200px;
-    height: 760px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
-}
-.tit-prote{
-    font-family: Changa;
-}
-.desc-prote{
-    font-family: Changa;
-}
-.div-grafiAcei{
-    background-color: rgb(121, 0, 0);
+    height: 350px;
+  }
+  .informacion-fit {
+    font-size: 18px;
+  }
+  .video-cambio {
+    width: 520px;
     height: 280px;
-    margin: 20px;
-    border: 1px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
+  }
+  .img-flecha {
+    width: 250px;
+    height: 180px;
+  }
+  .titulo-metodos {
+    font-size: 17px;
+  }
+  .descripcion-metodos {
+    font-size: 11px;
+  }
+  .titulo-entrenamientos {
+    font-size: 16px;
+  }
+  .descripcion-entrenamientos {
+    font-size: 14px;
+  }
 }
-.tit-acei{
-    font-family: Changa;
+@media (max-width: 1024px) {
+  .other-pagesPage a {
+    font-size: 12px;
+  }
+  .titulo-inicio {
+    font-size: 52px;
+  }
+  .navegador-img {
+    width: 70px;
+    height: 70px;
+  }
+  .video-videInformativo {
+    width: 400px;
+    height: 240px;
+  }
+  .titulo-videoInformativo {
+    font-size: 16px;
+  }
+  .description-videoInformatico {
+    font-size: 14px;
+  }
+  .titulo-miInformacion {
+    font-size: 20.5px;
+  }
+  .mi-Informacion {
+    font-size: 11px;
+  }
+  /*MAS INFORMACION*/
+  .titulo-mas-informacion {
+    font-size: 52px;
+  }
+  .img-mas-informacion {
+    width: 450px;
+    height: 300px;
+  }
+  .informacion-fit {
+    font-size: 16px;
+  }
+  .video-cambio {
+    width: 460px;
+    height: 240px;
+  }
+  .img-flecha {
+    width: 200px;
+    height: 160px;
+  }
+  .titulo-metodos {
+    font-size: 16px;
+  }
+  .descripcion-metodos {
+    font-size: 10px;
+  }
+  .titulo-entrenamientos {
+    font-size: 15px;
+  }
+  .descripcion-entrenamientos {
+    font-size: 13px;
+  }
 }
-.desc-acei{
-    font-family: Changa;
+@media (max-width: 992px) {
+  .other-pagesPage a {
+    font-size: 10px;
+  }
+  .titulo-inicio {
+    font-size: 48px;
+  }
+  .navegador-img {
+    width: 60px;
+    height: 60px;
+  }
+  .video-videInformativo {
+    width: 370px;
+    height: 220px;
+  }
+  .titulo-videoInformativo {
+    font-size: 15px;
+  }
+  .description-videoInformatico {
+    font-size: 13px;
+  }
+  .titulo-miInformacion {
+    font-size: 19px;
+  }
+  .mi-Informacion {
+    font-size: 10px;
+  }
+  /*RUTINAS*/
+  .titulo-rutinas {
+    font-size: 48px;
+  }
+  /*MAS INFORMACION*/
+  .titulo-mas-informacion {
+    font-size: 48px;
+  }
+  .img-mas-informacion {
+    width: 400px;
+    height: 250px;
+  }
+  .informacion-fit {
+    font-size: 14px;
+  }
+  .video-cambio {
+    width: 420px;
+    height: 200px;
+  }
+  .img-flecha {
+    width: 150px;
+    height: 120px;
+  }
+  .titulo-metodos {
+    font-size: 15px;
+  }
+  .descripcion-metodos {
+    font-size: 9.5px;
+  }
+  .titulo-entrenamientos {
+    font-size: 14px;
+  }
+  .descripcion-entrenamientos {
+    font-size: 12px;
+  }
 }
-@media(max-width: 1200px) {
-    .div-otherPages a{
-        font-size: 14px;
-    }
-    .titulo-inicio{
-        font-size: 58px;
-    }
-    .div-myInfo{
-        height: 400px;
-    }
-    .title-myInfo{
-        font-size: 22px;
-    }
-    .my-info{
-        font-size: 10px;
-    }
-    .video-inform{
-        width: 400px;
-        height: 270px;
-    }
-    .title-videoInform{
-        font-size: 16px
-    }
-    .description-videoInform{
-        font-size: 12px;
-    }
-    .graf-inicio{
-        left: 350px;
-    }
-    .graf-abst{
-        font-size: 12px;
-    }
-    .graf-const{
-        font-size: 12px;
-    }
-    .graf-irreg{
-        font-size: 12px;
-    }
-    .graf-xqsi{
-        font-size: 12px;
-    }
-    .logo-under{
-        left: 1030px;
-    }
-    /*Mas Info*/
-    .titulo-info{
-        font-size: 58px;
-    }
-    .img-masInfo{
-        width: 500px;
-        height: 300px;
-    }
-    .info-fit{
-        font-size: 12px;
-    }
-    .titulo-metodos{
-        font-size: 17px;
-    }
-    .desc-metodos{
-        font-size: 11px;
-    }
-    .img-flecha{
-        width: 200px;
-    }
-    .video-cambio{
-        width: 520px;
-        height: 280px;
-    }
-    .titulo-arnold{
-        font-size: 17px;
-    }
-    .desc-arnold{
-        font-size: 14px;
-    }
-    .titulo-heavyDuty{
-        font-size: 17px;
-    }
-    .desc-heavyDuty{
-        font-size: 14px;
-    }
-    .titulo-full{
-        font-size: 17px;
-    }
-    .desc-full{
-        font-size: 14px;
-    }
+@media (max-width: 768px) {
+  .inicio {
+    flex-wrap: wrap;
+  }
+  .other-pagesPage a {
+    font-size: 9px;
+  }
+  .titulo-inicio {
+    font-size: 38px;
+  }
+  .navegador-img {
+    width: 50px;
+    height: 50px;
+  }
+  .video-videInformativo {
+    width: 320px;
+    height: 190px;
+  }
+  .titulo-videoInformativo {
+    font-size: 14px;
+  }
+  .description-videoInformatico {
+    font-size: 12px;
+  }
+  .titulo-miInformacion {
+    font-size: 18px;
+  }
+  .mi-Informacion {
+    font-size: 9px;
+  }
+  /*MAS INFORMACION*/
+  .titulo-mas-informacion {
+    font-size: 38px;
+  }
+  .img-mas-informacion {
+    width: 400px;
+    height: 250px;
+  }
+  .informacion-fit {
+    font-size: 10px;
+  }
+  .video-cambio {
+    width: 360px;
+  }
+  .img-flecha {
+    width: 120px;
+    height: 100px;
+  }
+  .titulo-metodos {
+    font-size: 12px;
+  }
+  .descripcion-metodos {
+    font-size: 9px;
+  }
+  .titulo-entrenamientos {
+    font-size: 12px;
+  }
+  .descripcion-entrenamientos {
+    font-size: 11px;
+  }
+  /*RUTINAS*/
+  .titulo-rutinas {
+    font-size: 38px;
+  }
+  .dias {
+    font-size: 20px;
+  }
+  .descripcion-rutinas {
+    font-size: 15px;
+  }
+  /*FOOTER*/
+  .footer {
+    align-items: flex-end;
+  }
+  .logo-de-abajo {
+    width: 130px;
+    height: 130px;
+  }
 }
-@media(max-width: 1024px) {
-    .div-otherPages a{
-        font-size: 12px;
-    }
-    .titulo-inicio{
-        font-size: 56px;
-    }
-    .div-myInfo{
-        height: 350px;
-    }
-    .title-myInfo{
-        font-size: 22px;
-    }
-    .my-info{
-        font-size: 9px;
-    }
-    .title-videoInform{
-        font-size: 15px
-    }
-    .description-videoInform{
-        font-size: 11px;
-    }
-    .graf-inicio{
-        left: 270px;
-    }
-    .graf-abst{
-        font-size: 11px;
-    }
-    .graf-const{
-        font-size: 11px;
-    }
-    .graf-irreg{
-        font-size: 11px;
-    }
-    .graf-xqsi{
-        font-size: 11px;
-    }
-    .logo-under{
-        left: 855px;
-    }
-    /*Mas Info*/
-    .titulo-info{
-        font-size: 54px;
-    }
-    .img-masInfo{
-        width: 400px;
-    }
-    .info-fit{
-        font-size: 11px;
-    }
-    .titulo-metodos{
-        font-size: 16px;
-    }
-    .desc-metodos{
-        font-size: 10px;
-    }
-    .img-flecha{
-        width: 150px;
-        height: 100px;
-    }
-    .video-cambio{
-        width: 480px;
-        height: 240px;
-    }
-    .titulo-arnold{
-        font-size: 16px;
-    }
-    .desc-arnold{
-        font-size: 12px;
-    }
-    .titulo-heavyDuty{
-        font-size: 16px;
-    }
-    .desc-heavyDuty{
-        font-size: 12px;
-    }
-    .titulo-full{
-        font-size: 16px;
-    }
-    .desc-full{
-        font-size: 12px;
-    }
-}
-@media(max-width: 992px) {
-    .div-otherPages a{
-        font-size: 10px;
-    }
-    .titulo-inicio{
-        font-size: 54px;
-    }
-    .div-myInfo{
-        height: 340px;
-    }
-    .title-myInfo{
-        font-size: 20px;
-    }
-    .my-info{
-        font-size: 8px;
-    }
-    .title-videoInform{
-        font-size: 14px
-    }
-    .description-videoInform{
-        font-size: 10px;
-    }
-    .graf-inicio{
-        left: 270px;
-        width: 450px;
-    }
-    .graf-abst{
-        font-size: 10px;
-    }
-    .graf-const{
-        font-size: 10px;
-    }
-    .graf-irreg{
-        font-size: 10px;
-    }
-    .graf-xqsi{
-        font-size: 10px;
-    }
-    .logo-under{
-        left: 825px;
-    }
-    /*Mas Info*/
-    .titulo-info{
-        font-size: 50px;
-    }
-    .img-masInfo{
-        width: 350px;
-        height: 250px;
-    }
-    .info-fit{
-        font-size: 10px;
-    }
-    .titulo-metodos{
-        font-size: 15px;
-    }
-    .desc-metodos{
-        font-size: 9.5px;
-    }
-    .img-flecha{
-        width: 130px;
-        height: 90px;
-    }
-    .video-cambio{
-        width: 440px;
-        height: 230px;
-    }
-    .titulo-arnold{
-        font-size: 15px;
-    }
-    .desc-arnold{
-        font-size: 11.5px;
-    }
-    .titulo-heavyDuty{
-        font-size: 15px;
-    }
-    .desc-heavyDuty{
-        font-size: 11.5px;
-    }
-    .titulo-full{
-        font-size: 15px;
-    }
-    .desc-full{
-        font-size: 11.5px;
-    }
-}
-@media(max-width: 768px) {
-    .div-otherPages a{
-        font-size: 9px;
-    }
-    .titulo-inicio{
-        font-size: 52px;
-    }
-    .graf-inicio{
-        left: 210px;
-        width: 340px;
-    }
-    .logo-under{
-        left: 600px;
-    }
-    /*Mas Info*/
-    .titulo-info{
-        font-size: 46px;
-    }
-    .img-masInfo{
-        width: 350px;
-        height: 250px;
-    }
-    .info-fit{
-        font-size: 9.5px;
-    }
-    .titulo-metodos{
-        font-size: 14px;
-    }
-    .desc-metodos{
-        font-size: 9px;
-    }
-    .img-flecha{
-        width: 100px;
-        height: 80px;
-    }
-    .video-cambio{
-        width: 400px;
-        height: 200px;
-    }
-    .titulo-arnold{
-        font-size: 14px;
-    }
-    .desc-arnold{
-        font-size: 11px;
-    }
-    .titulo-heavyDuty{
-        font-size: 14px;
-    }
-    .desc-heavyDuty{
-        font-size: 11px;
-    }
-    .titulo-full{
-        font-size: 14px;
-    }
-    .desc-full{
-        font-size: 11px;
-    }
-}
+@media (max-width: 768px) {
+  /*MAS INFORMACION*/
+  .titulo-mas-informacion {
+    font-size: 32px;
+  }
+  .img-mas-informacion {
+    width: 250px;
+    height: 200px;
+  }
+  .informacion-fit {
+    font-size: 8px;
+  }
+  .video-cambio {
+    width: 250px;
+    height: 160px;
+  }
+  .img-flecha {
+    width: 80px;
+    height: 60px;
+  }
+  .titulo-metodos {
+    font-size: 10px;
+  }
+  .descripcion-metodos {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */

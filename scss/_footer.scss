@@ -1,0 +1,19 @@
+/*FOOTER*/
+.footer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    background-color: #bd0606;
+}
+.copyright{
+    font-size: 12px;
+    color: black;
+}
+.logo-de-abajo {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 150px; 
+}

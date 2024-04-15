@@ -1,0 +1,47 @@
+/*TIPOS DE ALIMENTACION*/
+.titulo-tipos-alimentos{
+    color: black;
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.circuloComidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-circuloComidas{
+    width: 70%;
+}
+.contenedor-informacion-comidas{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.contenedor-info{
+    background-color: rgb(121, 0, 0);
+    width: 600px;
+    margin: 20px;
+    border: solid black 1px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo-alimentos{
+    font-family: Changa;
+    color: white;
+}
+.descripcion-alimentos{
+    font-family: Changa;
+}
+.lista-alimentos{
+    font-family: Changa;
+    font-weight: bold;
+}

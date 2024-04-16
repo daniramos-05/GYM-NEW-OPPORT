@@ -5,6 +5,16 @@
     font-size: 60px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @media(max-width: 992px){
+            .titulo-rutinas{
+            font-size: 48px;
+            }
+    }
+    @media(max-width: 768px){
+            .titulo-rutinas{
+            font-size: 38px;
+            }
+    }
 }
 .tipos-rutinas{
     background-color: rgb(117, 116, 115);
@@ -22,13 +32,18 @@
     border-color: black;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(180, 0, 0);
+    background-color: $color-terciario;
     position: relative;
 }
 .dias{
     font-family: Changa;
     text-align: center;
     font-size: 30px;
+    @media(max-width: 768px){
+            .dias{
+            font-size: 20px;
+            }
+    }
 }
 .img-rutinas{
     width: 100%;
@@ -38,6 +53,11 @@
 .descripcion-rutinas{
     font-family: Changa;
     text-align: center;
+    @media(max-width: 768px){
+            .descripcion-rutinas{
+            font-size: 15px;
+            }
+    }
 }
 .boton-rutinas{
     width: 130px;

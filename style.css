@@ -16,18 +16,23 @@
     position: sticky;
     z-index: 2;
 }
+.icono-menu{
+    display: none;
+    color: white;
+    font-size: 24px;
+}
 .navegador-img {
     text-align: left;
     width: 100px;
     background-color: #bd0606;
     height: 100px; 
 }
-.other-pages {
+.navegador-links {
     list-style: none;
     display: flex;
     gap: 20px;
 }
-.other-pagesPage a{
+.links a{
     display: block;
     color: white;
     padding: 20px 5px;
@@ -351,7 +356,7 @@
     font-weight: bold;
 }
 @media(max-width: 1200px) {
-    .other-pagesPage a{
+    .links a{
         font-size: 14px;
     }
     .titulo-inicio{
@@ -414,7 +419,7 @@
     }
 }
 @media(max-width: 1024px) {
-    .other-pagesPage a{
+    .links a{
         font-size: 12px;
     }
     .titulo-inicio{
@@ -477,7 +482,7 @@
     }
 }
 @media(max-width: 992px) {
-    .other-pagesPage a{
+    .links a{
         font-size: 10px;
     }
     .titulo-inicio{
@@ -547,7 +552,7 @@
     .inicio{
         flex-wrap: wrap;
     }
-    .other-pagesPage a{
+    .links a{
         font-size: 9px;
     }
     .titulo-inicio{
@@ -626,7 +631,7 @@
         font-size: 38px;
     }
 }
-@media(max-width: 768px){
+@media(max-width: 576px){
     /*INICIO*/
     .titulo-inicio{
         font-size: 38px;
@@ -651,7 +656,10 @@
         font-size: 14px;
     }
     /*NAVEGADOR*/
-    .other-pagesPage a{
+    .icono-menu{
+        display: block;
+    }
+    .links a{
         font-size: 12px;
     }
     /*MAS INFORMACION*/
@@ -682,6 +690,33 @@
     }
     .descripcion-metodos{
     font-size: 8px;
+    }
+}
+@media(max-width: 576px){
+    .icono-menu:hover + .navegador-links{
+        display: block;
+        transition: 1s;
+    }
+    .navegador-links{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        color: white;
+        background-color: #bd0606;
+        height: 100vh;
+        flex-direction: column;
+        padding-top: 100px;
+        align-items: center;
+        display: none;
+        transition: 1s;
+    }
+    .navegador-links:hover{
+        display: block;
+        transition: 1s;
+    }
+    .links a{
+        font-size: 15px;
     }
 }
 @media(max-width: 480px){

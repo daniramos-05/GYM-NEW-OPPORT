@@ -7,9 +7,7 @@
     flex-direction: column-reverse;
     background-color: #bd0606;
     @media(max-width: 768px){
-            .footer{
-            align-items: flex-end;
-            }
+        align-items: flex-end;
     }
 }
 .copyright{
@@ -22,9 +20,7 @@
     width: 150px;
     height: 150px; 
     @media(max-width: 768px){
-            .logo-de-abajo {
-            width: 130px;
-            height: 130px; 
-            }
+        width: 130px;
+        height: 130px; 
     }
 }

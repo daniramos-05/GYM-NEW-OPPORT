@@ -5,6 +5,26 @@
     font-size: 60px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @media(max-width: 1200px) {
+        .titulo-tipos-alimentos{
+            font-size: 56px;
+        }
+    }
+    @media(max-width: 1024px){
+        .titulo-tipos-alimento{
+            font-size: 52px;
+        }  
+    }
+    @media(max-width: 992px){
+        .titulo-tipos-alimento{
+            font-size: 48px;
+        }
+    }
+    @media(max-width: 768px){
+        .titulo-tipos-alimento{
+            font-size: 38px;
+        }
+    }
 }
 .circuloComidas{
     display: flex;

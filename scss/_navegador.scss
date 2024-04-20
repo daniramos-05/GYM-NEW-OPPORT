@@ -10,7 +10,7 @@
     position: sticky;
     z-index: 2;
     .icono-menu{
-        color: white;
+        color: #bd0606;
         font-size: 24px;
         display: none;
         &:hover + .navegador-links{
@@ -18,6 +18,7 @@
             transition: 1s;
         }
         @media(max-width: 576px){
+            color: white;
             display: block;
         }
     }

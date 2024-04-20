@@ -18,7 +18,7 @@
 }
 .icono-menu{
     display: none;
-    color: white;
+    color: #bd0606;
     font-size: 24px;
 }
 .navegador-img {
@@ -693,6 +693,9 @@
     }
 }
 @media(max-width: 576px){
+    .icono-menu{
+        color: white;
+    }
     .icono-menu:hover + .navegador-links{
         display: block;
         transition: 1s;

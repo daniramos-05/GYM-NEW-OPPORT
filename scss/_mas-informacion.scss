@@ -1,321 +1,79 @@
 /*MAS INFORMACION*/
-.titulo-mas-informacion{
-    color: black;
-    margin: 20px;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    @media(max-width: 1200px) {
-            .titulo-mas-informacion{
-            font-size: 56px;
-            }
-    }
-    @media(max-width: 1024px){
-            .titulo-mas-informacion{
-            font-size: 52px;
-            }
-    }
-    @media(max-width: 992px){
-            .titulo-mas-informacion{
-            font-size: 48px;
-            }
-    }
-    @media(max-width: 768px){
-            .titulo-mas-informacion{
-            font-size: 38px;
-            }
-    }
-    @media(max-width: 480px){
-            .titulo-mas-informacion{
-            font-size: 32px;
-            }
-    }
+.titulo-mas-informacion {
+  color: black;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.masInformacion{
-    display: flex;
-    margin: 10px;
-    gap: 20px;
-    @media(max-width: 768px){
-        flex-wrap: wrap;
-    }
+.masInformacion {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
 }
-.img-mas-informacion{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-        @media(max-width: 1200px) {
-            .img-mas-informacion{
-            width: 500px;
-            height: 350px;
-            }
-    }
-    @media(max-width: 1024px){
-            .img-mas-informacion{
-            width: 450px;
-            height: 300px;
-            }
-    }
-    @media(max-width: 992px){
-            .img-mas-informacion{
-            width: 400px;
-            height: 250px;
-            }
-    }
-    @media(max-width: 768px){
-            .img-mas-informacion{
-            width: 400px;
-            height: 250px;
-            }
-    }
-    @media(max-width: 480px){
-                .img-mas-informacion{
-                width: 100%;
-                height: 100%;
-                align-items: center;
-                display: flex;
-            }
-    }
+.img-mas-informacion {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
 }
-.informacion-fit{
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 20px;
-    font-family: Changa;
-    @media(max-width: 1200px) {
-            .informacion-fit{
-            font-size: 18px;
-            }
-    }
-    @media(max-width: 1024px){
-            .informacion-fit{
-            font-size: 16px;
-            }
-    }
-    @media(max-width: 992px){
-            .informacion-fit{
-            font-size: 14px;
-            }
-    }
-    @media(max-width: 768px){
-            .informacion-fit{
-            font-size: 10px;
-            }
-    }
-    @media(max-width: 480px){
-            .informacion-fit{
-            font-size: 11px;
-            }
-    }
+.informacion-fit {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Changa;
 }
-.metodos-cambio{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    @media(max-width: 480px){
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
+.metodos-cambio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
-.videoCambio{
-    object-fit: cover;
+.videoCambio {
+  object-fit: cover;
 }
-.video-cambio{
-    width: 750px;
-    height: 430px;
-    @media(max-width: 1200px) {
-            .video-cambio{
-            width: 520px;
-            height: 280px;
-            }
-    }
-    @media(max-width: 1024px){
-            .video-cambio{
-            width: 460px;
-            height: 240px;
-            }
-    }
-    @media(max-width: 992px){
-            .video-cambio{
-            width: 420px;
-            height: 200px;
-            }
-    }
-    @media(max-width: 768px){
-            .video-cambio{
-            width: 360px;
-            }
-    }
-    @media(max-width: 480px){
-            .video-cambio{
-            width: 350px;
-            height: 200px;
-            }
-    }
+.video-cambio {
+  width: 750px;
+  height: 430px;
 }
-.img-flecha{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    @media(max-width: 1200px) {
-            .img-flecha{
-            width: 250px;
-            height: 180px;
-            }
-    }
-    @media(max-width: 1024px){
-            .img-flecha{
-            width: 200px;
-            height: 160px;
-            }
-    }
-    @media(max-width: 992px){
-            .img-flecha{
-            width: 150px;
-            height: 120px;
-            }
-    }
-    @media(max-width: 768px){
-            .img-flecha{
-            width: 120px;
-            height: 100px;
-            }
-    }
-    @media(max-width: 480px){
-                .img-flecha{
-                width: 100%;
-                height: 150px;
-                transform: rotate(90deg);
-            }
-    }
+.img-flecha {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
 }
-.metodos{
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
+.metodos {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
 }
-.titulo-metodos{
-    font-size: 18px;
-    font-family: Changa;
-    @media(max-width: 1200px) {
-            .titulo-metodos{
-            font-size: 17px;
-            }
-    }
-    @media(max-width: 1024px){
-            .titulo-metodos{
-            font-size: 16px;
-            }
-    }
-    @media(max-width: 992px){
-            .titulo-metodos{
-            font-size: 15px;
-            }
-    }
-    @media(max-width: 768px){
-            .titulo-metodos{
-            font-size: 12px;
-            }
-    }
-    @media(max-width: 480px){
-            .titulo-metodos{
-            font-size: 13px;
-            }
-    }
+.titulo-metodos {
+  font-size: 18px;
+  font-family: Changa;
 }
-.descripcion-metodos{
-    font-size: 12px;
-    font-family: Changa;
-    @media(max-width: 1200px){
-            .descripcion-metodos{
-            font-size: 11px;
-            }
-    }
-    @media(max-width: 1024px){
-            .descripcion-metodos{
-            font-size: 10px;
-            }
-    }
-    @media(max-width: 992px){
-            .descripcion-metodos{
-            font-size: 9.5px;
-            }
-    }
-    @media(max-width: 768px){
-            .descripcion-metodos{
-            font-size: 9px;
-            }
-    }
-    @media(max-width: 480px){
-            .descripcion-metodos{
-            font-size: 10px;
-            }
-    }
+.descripcion-metodos {
+  font-size: 12px;
+  font-family: Changa;
 }
-.tipos-metodos{ 
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-around
+.tipos-metodos {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
 }
-.metodos-entrenamiento{
-    background-color: rgb(180, 22, 22);     
-    width: 400px;        
-    margin: 20px;     
-    padding: 10px;
+.metodos-entrenamiento {
+  background-color: rgb(180, 22, 22);
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
 }
-.titulo-entrenamientos{
-    font-family: Changa;
-    color: white;
-    @media(max-width: 1200px){
-            .titulo-entrenamientos{
-            font-size: 16px;
-            }
-    }
-    @media(max-width: 1024px){
-            .titulo-entrenamientos{
-            font-size: 15px;
-            }
-    }
-    @media(max-width: 992px){
-            .titulo-entrenamientos{
-            font-size: 14px;
-            }
-    }
-    @media(max-width: 768px){
-            .titulo-entrenamientos{
-            font-size: 12px;
-            }
-    }
+.titulo-entrenamientos {
+  font-family: Changa;
+  color: white;
 }
-.descripcion-entrenamientos{
-    font-family: Changa;
-    color: white;
-    @media(max-width: 1200px){
-            .descripcion-entrenamientos{
-            font-size: 14px;
-            }
-    }
-    @media(max-width: 1024px){
-            .descripcion-entrenamientos{
-            font-size: 13px;
-            }
-    }
-    @media(max-width: 992px){
-            .descripcion-entrenamientos{
-            font-size: 12px;
-            }
-    }
-    @media(max-width: 768px){
-            .descripcion-entrenamientos{
-            font-size: 11px;
-            }
-    }
-    
+.descripcion-entrenamientos {
+  font-family: Changa;
+  color: white;
 }

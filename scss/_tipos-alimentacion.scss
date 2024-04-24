@@ -1,59 +1,47 @@
 /*TIPOS DE ALIMENTACION*/
-.titulo-tipos-alimentos{
-    color: black;
-    margin: 20px;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    @media(max-width: 1200px) {
-        font-size: 56px;
-    }
-    @media(max-width: 1024px){
-        font-size: 52px;
-    }
-    @media(max-width: 992px){
-        font-size: 48px;
-    }
-    @media(max-width: 768px){
-        font-size: 38px;
-    }
+.titulo-tipos-alimentos {
+  color: black;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.circuloComidas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.circuloComidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.imagen-circuloComidas{
-    width: 70%;
+.imagen-circuloComidas {
+  width: 70%;
 }
-.contenedor-informacion-comidas{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-around;
+.contenedor-informacion-comidas {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
 }
-.contenedor-info{
-    background-color: $color-secundario;
-    width: 600px;
-    margin: 20px;
-    border: solid black 1px;
-    padding: 25px;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.contenedor-info {
+  background-color: $color-secundario;
+  width: 600px;
+  margin: 20px;
+  border: solid black 1px;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.titulo-alimentos{
-    font-family: Changa;
-    color: white;
+.titulo-alimentos {
+  font-family: Changa;
+  color: white;
 }
-.descripcion-alimentos{
-    font-family: Changa;
+.descripcion-alimentos {
+  font-family: Changa;
 }
-.lista-alimentos{
-    font-family: Changa;
-    font-weight: bold;
+.lista-alimentos {
+  font-family: Changa;
+  font-weight: bold;
 }

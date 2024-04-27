@@ -97,7 +97,7 @@
   justify-content: center;
 }
 .grafico-inicio {
-  width: 50%;
+  width: 90%;
 }
 .graficoInicio {
   display: flex;
@@ -719,6 +719,9 @@
   }
   .links a {
     font-size: 15px;
+  }
+  .grafico-inicio {
+    width: 120%;
   }
 }
 @media (max-width: 480px) {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GYM NEW OPPORT</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./img/logo11.png" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
     <link
@@ -16,7 +17,9 @@
   </head>
   <body>
     <nav class="navegador">
-      <img class="navegador-img" src="./img/logo11.png" alt="" />
+      <div class="contenedor-navegador-img">
+        <img class="navegador-img" src="./img/logo11.png" alt="" />
+      </div>
       <i class="icono-menu fa-solid fa-bars"></i>
       <ul class="navegador-links">
         <li class="links"><a href="./index.html">Inicio</a></li>
@@ -32,9 +35,9 @@
       </ul>
     </nav>
     <header>
-      <h1 class="titulo-inicio">GYM NEW OPPORT</h1>
+      <h1 class="titulo-inicio" data-aos="zoom-in-down">GYM NEW OPPORT</h1>
       <div class="inicio">
-        <div class="videoInformativo">
+        <div class="videoInformativo" data-aos="fade-right">
           <iframe
             class="video-videInformativo"
             width="500px"
@@ -46,7 +49,7 @@
             allowfullscreen
           ></iframe>
         </div>
-        <div class="videoDescription">
+        <div class="videoDescription" data-aos="fade-down">
           <h3 class="titulo-videoInformativo">Video Informativo</h3>
           <p class="description-videoInformatico">
             En este video se podra apreciar de toda informacion que sea
@@ -57,7 +60,7 @@
             otras cosas.
           </p>
         </div>
-        <div class="miInformacion">
+        <div class="miInformacion" data-aos="fade-left">
           <h2 class="titulo-miInformacion">Acerca de Mi</h2>
           <h5 class="mi-Informacion">
             Hola, como estan? Bueno, en esta parte voy a contarles un poco de
@@ -78,11 +81,11 @@
       </div>
     </header>
     <main>
-      <div class="grafico-inicio-img">
+      <div class="grafico-inicio-img" data-aos="zoom-out">
         <img class="grafico-inicio" src="./img/grafico-dani.png" alt="" />
       </div>
       <div class="graficoInicio">
-        <div class="recurrencia-ejercicio">
+        <div class="recurrencia-ejercicio" data-aos="zoom-in-right">
           <h3 class="descripcion-graficos">
             En la práctica, casi la mitad de la población se ejercita al menos
             una vez por semana. Esto nos lleva a entender que es un gran
@@ -94,7 +97,7 @@
             o ir a algun gimnasio.
           </h3>
         </div>
-        <div class="recurrencia-ejercicio">
+        <div class="recurrencia-ejercicio" data-aos="zoom-in-left">
           <h3 class="descripcion-graficos">
             La otra casi mitad de la poblacion que no hace ningun tipo de
             ejercitacion lamentablemente se pierde de una practia hermosa, que
@@ -107,7 +110,7 @@
             correr, o caminar.
           </h3>
         </div>
-        <div class="recurrencia-ejercicio">
+        <div class="recurrencia-ejercicio" data-aos="zoom-in-right">
           <h3 class="descripcion-graficos">
             Hay dentro de los que hacen ejercicio, que no es que son constantes
             a la hora de salir a correr, o ir al gym, sino que lo hacen porque
@@ -118,7 +121,7 @@
             bien y que sea eficiente el golpe a la pelota y muchos factores mas.
           </h3>
         </div>
-        <div class="recurrencia-ejercicio">
+        <div class="recurrencia-ejercicio" data-aos="zoom-in-left">
           <h3 class="descripcion-graficos">
             Si te sentís indeciso a la hora de empezar a entrenar, ya sea en tu
             casa, en la calle, o hasta en un gimnasio, no dudes de que va a ser
@@ -153,5 +156,11 @@
       </p>
       <img class="logo-de-abajo" src="./img/logo11.png" alt="" />
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
   </body>
 </html>

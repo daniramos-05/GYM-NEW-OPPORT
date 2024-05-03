@@ -5,10 +5,28 @@
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 20px;
+  @media (max-width: 1200px) {
+    font-size: 56px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 52px;
+  }
+  @media (max-width: 992px) {
+    font-size: 48px;
+  }
+  @media (max-width: 768px) {
+    font-size: 38px;
+  }
+  @media (max-width: 576px) {
+    font-size: 38px;
+  }
 }
 .inicio {
   display: flex;
   justify-content: space-around;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
 .videoInformativo {
   margin: 20px;
@@ -17,6 +35,26 @@
 .video-videoInformativo {
   width: 500px;
   height: 310px;
+  @media (max-width: 1200px) {
+    width: 440px;
+    height: 270px;
+  }
+  @media (max-width: 1024px) {
+    width: 400px;
+    height: 240px;
+  }
+  @media (max-width: 992px) {
+    width: 370px;
+    height: 220px;
+  }
+  @media (max-width: 768px) {
+    width: 320px;
+    height: 190px;
+  }
+  @media (max-width: 576px) {
+    width: 320px;
+    height: 190px;
+  }
 }
 .videoDescription {
   display: block;
@@ -25,11 +63,41 @@
   font-family: Changa;
   padding: 10px;
   margin: 5px;
+  @media (max-width: 1200px) {
+    font-size: 17px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+  @media (max-width: 992px) {
+    font-size: 15px;
+  }
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
 }
 .description-videoInformatico {
   font-family: Changa;
   padding: 10px;
   margin: 5px;
+  @media (max-width: 1200px) {
+    font-size: 15px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+  @media (max-width: 992px) {
+    font-size: 13px;
+  }
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
 }
 .miInformacion {
   width: 240%;
@@ -44,11 +112,41 @@
   font-family: Changa;
   text-align: center;
   font-size: 24px;
+  @media (max-width: 1200px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 20.5px;
+  }
+  @media (max-width: 992px) {
+    font-size: 19px;
+  }
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
 }
 .mi-Informacion {
   font-size: 13.5px;
   font-family: Changa;
   text-align: center;
+  @media (max-width: 1200px) {
+    font-size: 12px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 11px;
+  }
+  @media (max-width: 992px) {
+    font-size: 10px;
+  }
+  @media (max-width: 768px) {
+    font-size: 9px;
+  }
+  @media (max-width: 576px) {
+    font-size: 14px;
+  }
 }
 .grafico-inicio-img {
   display: flex;

@@ -1,29 +1,130 @@
 /*NAVEGADOR-CONTACTOS*/
-.contactos-redes{
-    font-size: 12px;
-    list-style: none;
-    text-align: left;
-    background-color: $color-primario;
+.aside {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bd0606;
 }
-.red-ig a{
-    font-family: Changa;
-    display: block;
-    color: white;
-    padding: 20px 5px;
-    text-decoration: none;
+.contactos-redes {
+  font-size: 12px;
+  list-style: none;
+  background-color: $color-primario;
+  @media (max-width: 992px) {
+    font-size: 10px;
+  }
 }
-.red-face a{
-    font-family: Changa;
-    display: block;
+.red-ig {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+  gap: 5px;
+  .icono-instagram {
     color: white;
-    padding: 5px;
-    text-decoration: none;
+    font-size: 25px;
+    transition: 1s;
+  }
+}
+.red-ig a {
+  font-family: Changa;
+  display: flex;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  transition: 1s;
+  &:hover {
+    font-size: 14px;
+    transition: 1s;
+  }
+}
+.red-face {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+  gap: 5px;
+  .icono-facebook {
+    color: white;
+    font-size: 25px;
+    transition: 1s;
+  }
+}
+.red-face a {
+  font-family: Changa;
+  display: flex;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  transition: 1s;
+  &:hover {
+    font-size: 14px;
+    transition: 1s;
+  }
 }
 .red-num {
-    font-family: Changa;
-    display: block;
+  font-family: Changa;
+  display: flex;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-family: Changa;
+  transition: 1s;
+  .icono-numero {
     color: white;
-    padding: 20px 5px;
-    text-decoration: none;
-    font-family: Changa;
+    font-size: 25px;
+    transition: 1s;
+  }
+  &:hover {
+    font-size: 14px;
+    transition: 1s;
+  }
+}
+.ubicacion-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-primario;
+  align-items: end;
+  @media (max-width: 576px) {
+    align-items: center;
+  }
+}
+.icono-ubicacion {
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+.direccion {
+  display: contents;
+  font-family: Changa;
+  color: white;
+  font-size: 10px;
+  margin: 10px;
+  @media (max-width: 992px) {
+    font-size: 8px;
+  }
+  @media (max-width: 992px) {
+    margin: 0px;
+  }
+}
+.img-direccion {
+  width: 20%;
+  height: 60%;
+  object-fit: cover;
+  margin: 20px;
+  border: 5px;
+  border-radius: 100px;
+  @media (max-width: 768px) {
+    height: 50%;
+  }
+  @media (max-width: 576px) {
+    height: 40%;
+    margin: 20px 20px 5px 20px;
+  }
+  @media (max-width: 480px) {
+    height: 40%;
+  }
+  @media (max-width: 350px) {
+    width: 40%;
+  }
+  &:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
 }

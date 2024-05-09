@@ -202,6 +202,12 @@
     height: 190px;
   }
 }
+@media (max-width: 480px) {
+  .video-videInformativo {
+    width: 260px;
+    height: 180px;
+  }
+}
 .videoDescription {
   display: block;
 }
@@ -326,6 +332,12 @@
   width: 50%;
 }
 
+@media (max-width: 480px) {
+  .grafico-inicio {
+    width: 100%;
+  }
+}
+
 .graficoInicio {
   display: flex;
   flex-direction: row;
@@ -431,6 +443,7 @@
 
 .red-num {
   font-family: Changa;
+  font-size: 14px;
   display: flex;
   align-items: center;
   color: white;
@@ -462,6 +475,12 @@
   color: white;
   font-size: 20px;
   margin: 5px;
+}
+
+@media (max-width: 350px) {
+  .icono-ubicacion {
+    margin: 10px 0px 5px 105px;
+  }
 }
 
 .direccion {
@@ -514,13 +533,15 @@
 
 @media (max-width: 480px) {
   .img-direccion {
-    height: 40%;
+    height: 50%;
+    width: 50%;
   }
 }
 
 @media (max-width: 350px) {
   .img-direccion {
-    width: 40%;
+    width: 60%;
+    height: 40%;
   }
 }
 /*FOOTER*/
@@ -569,7 +590,7 @@
   .logo-de-abajo {
     width: 80px;
     height: 80px;
-    margin: 5px;
+    margin: 25px;
   }
 }
 
@@ -805,6 +826,12 @@
 @media (max-width: 768px) {
   .video-cambio {
     width: 360px;
+  }
+}
+@media (max-width: 480px) {
+  .video-cambio {
+    width: 270px;
+    height: 180px;
   }
 }
 .img-flecha {

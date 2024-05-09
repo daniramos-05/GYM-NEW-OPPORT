@@ -60,6 +60,7 @@
 }
 .red-num {
   font-family: Changa;
+  font-size: 14px;
   display: flex;
   color: white;
   padding: 20px 5px;
@@ -89,6 +90,9 @@
   color: white;
   font-size: 20px;
   margin: 5px;
+  @media (max-width: 350px) {
+    margin: 10px 0px 5px 105px;
+  }
 }
 .direccion {
   display: contents;
@@ -118,10 +122,12 @@
     margin: 20px 20px 5px 20px;
   }
   @media (max-width: 480px) {
-    height: 40%;
+    height: 50%;
+    width: 50%;
   }
   @media (max-width: 350px) {
-    width: 40%;
+    width: 60%;
+    height: 40%;
   }
   &:hover {
     transform: scale(1.2);
